@@ -1,0 +1,27 @@
+.feedbackBtnBox {
+    display: inline-flex;
+    gap: 10px;
+}
+.btn {
+    padding-block: 6px;
+    width: 60px;
+    cursor: pointer;
+}
+
+.good:hover {
+    background-color: rgb(62, 187, 62);
+    border: 0;
+    border-radius: 2px;
+}
+
+.neutral:hover {
+    background-color: rgb(246, 169, 26);
+    border: 0;
+    border-radius: 2px;
+}
+
+.bad:hover {
+    background-color: rgb(243, 37, 37);
+    border: 0;
+    border-radius: 2px;
+}

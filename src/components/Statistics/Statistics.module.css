@@ -1,0 +1,12 @@
+.stats {
+   margin-inline: 15px;
+}
+.total { 
+   composes: stats;
+   text-decoration: underline;
+}
+.overall {
+   display: flex;
+   justify-content: center;
+   margin-top: 25px;
+}
