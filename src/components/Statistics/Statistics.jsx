@@ -26,7 +26,7 @@ export const Statistics = ({
       <span className={css.total}>Total:{total}</span>
       <p className={css.overall}>
         Positive feedback:
-        <span style={{color: colorChange(), marginLeft: '3px' }}>{positivePercentage}%</span>
+        <span style={{color: colorChange(positivePercentage), marginLeft: '3px' }}>{positivePercentage}%</span>
       </p>
     </div>
   ));
